@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>متجر أحذية</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #F5EFE6;
+        color: #502A19;
+    }
+    header {
+        background: #A67B5B;
+        padding: 20px;
+        text-align: center;
+    }
+    header nav a {
+        margin: 0 10px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .hero {
+        text-align: center;
+        padding: 60px 20px;
+        background: #DCC6AA;
+    }
+    .hero h1 { font-size: 36px; margin-bottom: 10px; }
+    .section { padding: 40px 20px; text-align: center; }
+    .products { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+    .product-card {
+        background: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        width: 200px;
+        box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    }
+    .product-card img { width: 100%; border-radius: 8px; }
+    .btn {
+        background: #502A19;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        margin-top: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    footer {
+        background: #A67B5B;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#hero">الرئيسية</a>
+        <a href="#products">المنتجات</a>
+        <a href="#payment">طرق الدفع</a>
+        <a href="#contact">تواصل معنا</a>
+    </nav>
+</header>
+
+<section id="hero" class="hero">
+    <h1>أحذية لكل أفراد العائلة</h1>
+    <p>استعرض تشكيلتنا من الأحذية الرجالية، الحريمي، والأطفال</p>
+    <button class="btn">تصفح المنتجات</button>
+</section>
+
+<section id="products" class="section">
+    <h2>منتجات مميزة</h2>
+    <div class="products">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="حذاء رجالي">
+            <h3>حذاء رجالي</h3>
+            <p>سعر: 120 شيكل</p>
+            <button class="btn">اطلب الآن</button>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="حذاء حريمي">
+            <h3>حذاء حريمي</h3>
+            <p>سعر: 110 شيكل</p>
+            <button class="btn">اطلب الآن</button>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200" alt="حذاء أطفال">
+            <h3>حذاء أطفال</h3>
+            <p>سعر: 80 شيكل</p>
+            <button class="btn">اطلب الآن</button>
+        </div>
+    </div>
+</section>
+
+<section id="payment" class="section">
+    <h2>طرق الدفع</h2>
+    <p>يمكنك الدفع بسهولة عبر <strong>محفظة جوال (Jawwal Pay)</strong> داخل قطاع غزة.</p>
+</section>
+
+<section id="contact" class="section">
+    <h2>تواصل معنا</h2>
+    <p>واتساب: 059XXXXXXXX</p>
+    <p>إنستجرام: @yourstore</p>
+</section>
+
+<footer>
+    حقوق النشر © متجر الأحذية 2025
+</footer>
+
+</body>
+</html>
